@@ -26,7 +26,7 @@ drive.mount('/content/gdrive')
 ```
 
  * Run the code cell to connect to your Google Drive.
- * Enter your authorization code from the provided link.
+ * Enter your authorization code from the provided link (if required).
 
 ## Step 2: Download the tutorial materials to your Google Drive
 
