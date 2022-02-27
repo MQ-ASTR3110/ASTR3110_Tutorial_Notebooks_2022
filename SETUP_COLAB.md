@@ -36,24 +36,15 @@ Add another code cell to the notebook and run the following line of code:
 cd gdrive/'My Drive'
 ```
 
-Wait for this to execute successfully and then do the following in a
-new cell:
-
-```
-!git clone https://github.com/MQ-ASTR3110/ASTR3110_Tutorial_Notebooks_2022.git
-```
-
-This clones (downloads) the tutorial materials from the GitHub online
-repository. 
-
-It is advised that you clone the GitHub repository into a specific directory 
+Wait for this to execute successfully and then we can clone (download) the GitHub
+repository into your gdrive. It is advised that you clone the GitHub repository into a specific directory 
 (to avoid overwriting an existing directory that may contain work from a
 previous week). To do this, in a new cell run:
 ```
-!git clone https://github.com/MQ-ASTR3110-2021/ASTR3110_Tutorial_Notebooks_2021.git New_Dir
+!git clone https://github.com/MQ-ASTR3110/ASTR3110_Tutorial_Notebooks_2022.git New_Dir
 
 ```
-and the contents of the repository will be cloned into the new directory New_Dir/ (you can name this differently if you choose).
+and the contents of the repository will be cloned into the new directory New_Dir/ (you can name this differently if you choose, e.g., Week1 for the first week etc.).
 
 ## Step 3: Start a Jupiter Notebook and reconnect to your Google Drive.
 
@@ -78,7 +69,7 @@ Drive (if you need to save data from the Notebook):
 from google.colab import drive
 drive.mount('/content/gdrive')
 import os
-os.chdir('./gdrive/My Drive/ASTR3110_Tutorial_Notebooks_2021')
+os.chdir('/content/gdrive/My Drive/ASTR3110_Tutorial_Notebooks_2022')
 ```
  * Enter your authorization code from the provided link again.
 
