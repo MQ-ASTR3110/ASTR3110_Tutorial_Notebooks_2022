@@ -7,7 +7,7 @@ students for the practical projects during the year.
 
 ## Tutorial Topics
 
- * WK2: (2hrs) Part 1: Getting started with Google Colab, Probability and Statisstics. Part 2: Manipulating, visualising and cleaning data (Pandas)
+ * WK2: (2hrs) Part 1: Getting started with Google Colab, Probability and Statistics. Part 2: Manipulating, visualising and cleaning data (Pandas)
  * WK3: Fitting a model to data
  * WK4: Modelling data: Bayesian reasoning and samplers (MCMC)
  * WK5: Exploring structure in data: visualisation, PCA
