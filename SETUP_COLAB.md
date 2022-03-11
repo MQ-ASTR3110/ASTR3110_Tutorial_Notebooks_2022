@@ -33,7 +33,14 @@ drive.mount('/content/gdrive')
 Add another code cell to the notebook and run the following line of code:
 
 ```
-cd gdrive/'My Drive'
+cd gdrive/MyDrive
+```
+
+If the above dose note work, you can try:
+
+```
+import os
+os.chdir('cd gdrive/MyDrive')
 ```
 
 Wait for this to execute successfully and then we can clone (download) the GitHub
@@ -69,7 +76,7 @@ Drive (if you need to save data from the Notebook):
 from google.colab import drive
 drive.mount('/content/gdrive')
 import os
-os.chdir('/content/gdrive/My Drive/ASTR3110_Tutorial_Notebooks_2022')
+os.chdir('/content/gdrive/MyDrive/New_Dir/ASTR3110_Tutorial_Notebooks_2022')
 ```
  * Enter your authorization code from the provided link again.
 

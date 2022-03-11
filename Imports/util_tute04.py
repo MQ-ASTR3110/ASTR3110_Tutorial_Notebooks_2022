@@ -27,7 +27,7 @@ def polyN(p):
         This function is returned by the polyN function. It takes a
         vector of x values and loops over the order number, generating an Nth order polynomial.
         """
-        y = 0
+        y = 0.0
         for i in np.arange(len(p)):
             y += p[i]*x**float(i)
         # Note the indent here
