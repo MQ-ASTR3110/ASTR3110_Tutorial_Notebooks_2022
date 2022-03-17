@@ -36,7 +36,7 @@ Add another code cell to the notebook and run the following line of code:
 cd gdrive/MyDrive
 ```
 
-If the above dose note work, you can try:
+If the above does not work, you can try:
 
 ```
 import os
